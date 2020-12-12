@@ -1,0 +1,43 @@
+.Jumbotron  {
+            margin:auto;
+         display:flex;
+         flex-wrap: wrap;
+        background-color:rgb(2, 46, 46);
+        padding-top:5px;
+    }
+
+    .Card{
+      
+        background-color:rgb(12, 53, 53);;
+        align-items: center;
+        align-content: center;
+        width: 210px;
+        height: 210px;
+        flex-grow: 1;
+        flex-basis:  300px;
+        padding:10px;
+        align-content: space-between;
+        border-radius: 0%;
+        border:none;
+    }
+
+    .SetImage{
+        width:200px;
+        height: 100px;
+    }
+        .SetImageReact{
+            width:200px;
+            height: 100px;
+        }
+
+        .Title{
+                    flex-direction: initial;
+                    flex-basis:1000px;
+              
+        }
+
+       .Title {     flex-grow: 1;
+                    color: white;
+                    text-align:center;
+                /* margin-left:100px; */
+        }
